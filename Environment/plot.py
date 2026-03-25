@@ -134,7 +134,6 @@ class Plots():
     def benchmark(self):
         plot_bench = np.copy(self.bench_function)
         plot_bench[self.grid_or == 0] = np.nan
-        plot_bench[self.grid_or != 0] = 1
         levels = np.arange(0, 1, 0.2)
         extent = (0, self.xs, 0, self.ys)
         fig = plt.figure()
