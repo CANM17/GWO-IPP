@@ -61,10 +61,10 @@ PSO_EXPLORATION_DIST   = 50    # px — umbral exploración/explotación propio 
 # ─────────────────────────────────────────────
 # GWO-IPP — parámetros propios
 # ─────────────────────────────────────────────
-GWO_N_WOLVES           = 37    # tamaño de la manada virtual por ASV
-GWO_N_ITER             = 60    # iteraciones de la manada por re-planificación
-GWO_W3_MIN             = 0.2   # piso mínimo del peso de diversidad f3 (peor caso 1)
-GWO_A_EXP              = 2.6   # exponente de a(t) = 2·(1-t/T)^a_exp (1=lineal, 2=cóncavo)
+GWO_N_WOLVES           = 20    # tamaño de la manada virtual por ASV
+GWO_N_ITER             = 30    # iteraciones de la manada por re-planificación
+GWO_W3_MIN             = 0.1   # piso mínimo del peso de diversidad f3 (peor caso 1)
+GWO_A_EXP              = 2   # exponente de a(t) = 2·(1-t/T)^a_exp (1=lineal, 2=cóncavo)
 
 # ─────────────────────────────────────────────
 # Métricas — umbrales compartidos
